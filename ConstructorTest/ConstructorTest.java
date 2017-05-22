@@ -1,4 +1,4 @@
-import java.util.;
+import java.util.*;
 
 /**
 * This program demonstrates object construction.
@@ -34,7 +34,7 @@ class Employee
 	//static initializaion block
 	static
 	{
-		Random generator = new Rnadon();
+		Random generator = new Random();
 		//set nextId to a random number between 0 and 9999
 		nextId = generator.nextInt(10000);
 	}
@@ -52,7 +52,7 @@ class Employee
 		salary = s;
 	}
 
-	public Employee(doubel s)
+	public Employee(double s)
 	{
 		// calls the Employee(String, double) consturctor
 		this("Employee #" + nextId, s);
